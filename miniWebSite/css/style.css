@@ -28,10 +28,10 @@ h1#titulo1:hover {
     left:1000px;
     top: 250px;
 }
-a{
+.selecoes{
     color:#ffffff;
 }
-a:hover{
+.selecoes:hover{
     font-size: larger;
 }
 
@@ -53,6 +53,9 @@ hgroup ul li:hover {
     padding:8px;
     text-decoration: underline;
     color:#ffffff;
+}
+.opcao{
+    color:red
 }
 section{
     background-image: url("../IMAGEM/gramado.jpeg");        
