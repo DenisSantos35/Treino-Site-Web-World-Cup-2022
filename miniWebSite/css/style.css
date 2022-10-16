@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Distressed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Rubik+Distressed&display=swap');
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25pt;
+    background-color: #cecece;
+}
+header{
+    display:block;
+    background-color: #ffffff;
+    background-image: url("../IMAGEM/catarestadio.png");    
+    height: 400px;
+    margin: -10px 100px 0px 100px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,.6);    
+}
+header h1{
+    color:rgb(9, 4, 117);
+    font-family: "Permanent Marker", sans-serif;
+    float:left;
+    margin-top:0px;
+    padding-left: 30px;
+}
+h1#titulo1:hover {
+    font-size: 60pt;    
+}
+.trofeu{
+    position:absolute;
+    left:1000px;
+    top: 250px;
+}
+a{
+    color:#ffffff;
+}
+a:hover{
+    font-size: larger;
+}
+
+hgroup ul{
+    display:block;
+    font-size: 25px;
+    float:right;
+    margin-top: 5px;
+    margin-right: 40px;   
+}
+li{
+    display:inline;
+    background-color: rgba(ce,ce,ce,0.3);
+    padding: 3px;
+    color:rgb(9, 4, 117);
+}
+hgroup ul li:hover {
+    background-color: rgba(0,0,0,.4);
+    padding:8px;
+    text-decoration: underline;
+    color:#ffffff;
+}
+section{
+    background-image: url("../IMAGEM/gramado.jpeg");        
+    height: 1350px;
+    padding: 50px;   
+    margin: -10px 100px 0px 100px;
+    border-top: 1px solid black;   
+    box-shadow: 5px 5px 5px rgba(0,0,0,.6);
+}
+div{
+    display:inline-block;    
+    float: left;
+    border:1px solid rgba(0,0,0,1);
+    font-size:15px;
+    color:#ffffff;
+    text-align: justify;   
+    background-color: rgba(31, 34, 33,0);
+    width:14.5%;
+    height: 192px;
+    margin: 0px 20px 20px 0px;
+    box-shadow: 4px 4px 4px black;
+}
+div:hover{
+    box-shadow: 10px 10px 10px black;
+    background-color: rgb(10, 92, 245);
+}
+
+footer{
+    background-color: #ffffff;
+    padding: 10px;
+    margin: -10px 100px 0px 100px;
+    border-top: 1px solid black;
+    box-shadow: 5px 5px 5px rgba(0,0,0,.6);
+    text-align: center;
+}
