@@ -34,6 +34,11 @@ h1#titulo1:hover {
 .selecoes:hover{
     font-size: larger;
 }
+#imagem{
+    float:right;
+    box-shadow: none;
+    border: none;
+}
 
 hgroup ul{
     display:block;
